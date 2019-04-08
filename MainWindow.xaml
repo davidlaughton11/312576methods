@@ -1,0 +1,19 @@
+﻿<Window x:Class="_312576methodMaddness.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312576methodMaddness"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtInput"></TextBox>
+        <RadioButton x:Name="rbmmToInches" >MM to inches</RadioButton>
+        <RadioButton x:Name="rbinchesTomm" >Inches to mm</RadioButton>
+        <RadioButton x:Name="rbFartoCelc" >Fahrenheit to Celsius</RadioButton>
+        <RadioButton x:Name="rbCtoF" >Celsius to Fahrenheit</RadioButton>
+        <RadioButton x:Name="FeetToMEters" >Feet to meters </RadioButton>
+        <Button x:Name="btnConvert" Click="btnConvert_Click" >Convert</Button>
+        <Label x:Name="lblOutput" />
+    </StackPanel>
+</Window>
